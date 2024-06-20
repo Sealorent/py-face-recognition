@@ -182,5 +182,5 @@ def add_user():
 def video_capture():
     return Response(capture_by_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
-if __name__ == '__main__':
-    app.run(debug=True, use_reloader=True, port=8000)
+# if __name__ == '__main__':
+#     app.run(debug=True, use_reloader=True, port=8000)
