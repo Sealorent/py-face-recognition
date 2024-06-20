@@ -7,4 +7,4 @@ name = "pypi"
 flask = "*"
  
 [requires]
-phyton_version = "3.12"
+phyton_version = "3.9.2"
